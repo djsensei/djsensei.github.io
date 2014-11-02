@@ -1,9 +1,24 @@
+/*
+    Stylesheet for Dan's project page: http://djsensei.github.io
+
+    Yes, Dan can write a little bit of css. But he'd rather be modeling data!
+*/
+body {
+    background-color: #DDDDEE;
+    color: #111122;
+}
+
 #header {
     background-color: #DDEEDD;
+
+    height: 100px;
 }
+
 #content {
     background-color: #DDDDEE;
 }
+
 #footer {
     background-color: #EEDDDD;
+    height: 50px;
 }
