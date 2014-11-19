@@ -21,38 +21,42 @@ a:active {
 }
 .header{
     width:100%;
-    height:110px;
-    background-color: #A8ADB4;
+    height:200px;
+    background-color: #C3C8CD;
     padding:5px;
-    font-family: 'Patua One', sans-serif;
+}
+.header-left{
+    float:left;
+    height:auto;
+    width:360px;
     text-align:center;
 }
 .title-header, .subtitle-header{
     margin:2px;
-    font-style:bold;
+    font-weight:700;
 }
 .title-header{
     font-size:48px;
 }
 .subtitle-header{
     font-size:32px;
+    color:#555555;
 }
 .description{
+    position:absolute;
+    left:420px;
+    top:20px;
+    width:auto;
     height:auto;
-    background-color: #A8ADB4;
     padding:5px;
     margin:2px;
-}
-/*.inspiration, .methods, .personal-touch{
-    float:left;
-    width:32%;
-}*/
-.methods{
-
+    font-size:20px;
+    font-weight:300;
 }
 .viz-container{
     width:100%;
     height:650px;
+    margin-bottom:10px;
 }
 .legend{
     width:270px;
@@ -88,14 +92,14 @@ a:active {
     float:left;
 }
 .active-topics-header, .topic-info-header{
-    color:#A8ADB4;
+    color:#555555;
     text-align:center;
     font-size:16px;
 }
 .topic-info{
     color:#000000;
     float:left;
-    width:100px;
+    width:200px;
     height:100%;
     margin-left:5px;
     overflow:scroll;
@@ -106,19 +110,21 @@ a:active {
 }
 .topic-term{
     margin:0px;
-    padding-left:3px;
-    font-size:12px;
+    padding-left:5px;
+    padding-right:5px;
+    font-size:16px;
+    font-weight:300;
 }
 .article-info{
     color:#000000;
     font-family: Times;
     overflow:scroll;
     float:left;
-    width:600px;
+    width:500px;
     height:100%;
     margin-left:5px;
 }
-.headline{
+.article-headline{
     font-size:20px;
 }
 .legend-general{
@@ -155,8 +161,14 @@ a:active {
 }
 .footer{
     width:100%;
-    height:100px;
-    background-color: #CCCCFF;
+    height:auto;
+    padding-top:20px;
+    padding-bottom:20px;
+    text-align:center;
+    background-color: #A8ADB4;
+}
+.footer-text{
+
 }
 .area{
     opacity:.7;
